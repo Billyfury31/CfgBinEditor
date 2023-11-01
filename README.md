@@ -11,7 +11,9 @@ As its name suggests, this tool is used to modify the textual content of these f
 To modify the code and add operations to be performed on the text you will need to modify the main.py file. I advise you not to touch other files which are intended for loading .cfg.bin files<br>
 In the main.py file you will need to modify the name of the file you want to open :
 
-`ttbin_file = "ev01_0230_ja.cfg.bin"`
+```python 
+ttbin_file = "ev01_0230_ja.cfg.bin"
+```
 
-#Credits<br>
+# Credits<br>
 Thanks to the developers of kuriimu for publishing their code in C#, I adjusted it in python and its structure easily allows any modification to be applied to the text contained in the files.<br>
